@@ -1,4 +1,7 @@
 package com.techprimers.designpatterns.factory;
 
-public class Specification {
+public interface Specification {
+
+     void description();
+
 }

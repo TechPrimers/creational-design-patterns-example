@@ -1,4 +1,6 @@
 package com.techprimers.designpatterns.factory;
 
-public class PhoneType {
+public enum  PhoneType {
+    ANDROID,
+    IPHONE
 }
