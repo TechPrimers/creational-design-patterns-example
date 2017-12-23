@@ -1,6 +1,10 @@
 # Creational Design Patterns
+## Table of Contents
+- [Singleton] #singleton
+- [Builder] #builder
+- [Factory] #factory
 
-## Singleton
+## Singleton <a name="singleton"></a>
 - Static in nature
 - Thread safe
 - Private Constructor
@@ -13,7 +17,7 @@
 - Slow down
 - Confused with factory design pattern (with arguments)
 
-## Builder
+## Builder <a name="builder"></a>
 - Solves the multiple constructor problem (telescoping constructors)
 - static inner class (builder class)
 - internally required constructor
@@ -25,7 +29,7 @@
 - Designed first
 - Complex
 
-## Factory
+## Factory <a name="factory"></a>
 - Doesn't expose instantiation or the creation logic
 - Subclasses create the objects
 - Common Abstract/Interface
