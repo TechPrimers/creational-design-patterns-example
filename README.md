@@ -1,8 +1,8 @@
 # Creational Design Patterns
 ## Table of Contents
-- [Singleton] #singleton
-- [Builder] #builder
-- [Factory] #factory
+- [Singleton](#singleton)
+- [Builder](#builder)
+- [Factory](#factory)
 
 ## Singleton <a name="singleton"></a>
 - Static in nature
