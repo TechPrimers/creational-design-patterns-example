@@ -3,6 +3,7 @@
 - [Singleton](#singleton)
 - [Builder](#builder)
 - [Factory](#factory)
+- [AbstractFactory](#absfactory)
 
 ## Singleton <a name="singleton"></a>
 - Static in nature
@@ -39,4 +40,14 @@
 - Complex
 - Creation in Subclasses
 - Refactoring
+
+## Abstract Factory <a name="absfactory"></a>
+- Factory of factories/ related object / colelctions of factories
+- Common Abstract/Interface
+- Subclasses create the objects
+
+### Disadvantages
+- The code is complex
+- Refactoring factory
+- More control to client
 
